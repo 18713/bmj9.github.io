@@ -1,0 +1,563 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    flex-wrap: wrap;
+    background-color: #edeff0;
+    height: 70px;
+    
+}
+
+
+.logo1{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+    
+    
+}
+.small-container img{
+    width: 180px;
+}
+.logo{
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 70px;
+    background-color: #edeff0;
+    
+    
+}
+.logo img{
+    margin: 10px 10px;
+
+}
+
+.logo1, .logo2{
+    margin:0 7px;
+    background-color: #edeff0;
+}
+#shado1{
+    box-shadow: 5px 0 15px -6px black, -1px 0 15px -6px black;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+   
+    margin: 10px 0px;
+    flex-wrap: wrap;
+
+}
+.navbar{
+  
+    width: 120px;
+    height: 90px;
+}
+#a1{
+    border-bottom: 5px solid  #919191;
+    border-radius: 0 0px 0px 10px ;
+    background-color: #919191;
+    color: white;
+ 
+}
+#a1 img{
+    width: 40px;
+    height: 34px;
+
+}
+
+.pic1 a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   
+}
+
+    
+
+#a2{
+    border-bottom: 5px solid  red;
+   
+}
+#a2 img{
+  width: 35px;
+  height: 35px;
+    margin-top: 5px;
+}
+.pic2 a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#a3{
+    border-bottom: 5px solid  rgb(250, 120, 72);
+ 
+}
+#a3 img{
+    width: 40px;
+    height: 35px;
+    }
+.pic3 a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#a4{
+    border-bottom: 5px solid  rgb(228, 181, 28);
+  
+}
+#a4 img{
+    width: 43px;
+    height: 38px;
+
+}
+    
+.pic4 a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+#a5{
+    border-bottom: 5px solid  rgb(15, 187, 38);
+    
+}
+#a5 img{
+    width: 32px;
+    height: 32px;
+    
+    margin-top: 5px;
+}
+.pic5 a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#a6{
+    border-bottom: 5px solid  rgb(18, 131, 184);
+    text-align: center;
+   
+  
+}
+#a6 img{
+    width: 50px;
+    height: 30px;
+   
+    margin-top: 5px;
+  
+}
+.pic6 a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#a7{
+    border-bottom: 5px solid  rgb(4, 18, 207);
+    border-radius: 0 0px 5px 0 ;
+    text-align: center;
+  
+}
+#a7 img{
+    width: 40px;
+    height: 35px;
+ 
+    margin-top: 4px;
+}
+.pic7 a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#a2:hover{
+    background-color: red;
+    color: white;
+    
+    
+}
+#a3:hover{
+    background-color: rgb(250, 120, 72);
+    color: white;
+}
+#a4:hover{
+    background-color: rgb(228, 181, 28);
+    color: white;
+}
+#a5:hover{
+    background-color: rgb(15, 187, 38);
+    color: white;
+}
+#a6:hover{
+    background-color: rgb(18, 131, 184);
+    color: white;
+}
+#a7:hover{
+    background-color: rgb(4, 18, 207);
+    color: white;
+}
+.sec1{
+    background-color: #675945;
+    width: 579px;
+    height: 460px;
+    border-radius: 7px;
+}
+.sec1 span p{
+    margin: 20px 12px;
+
+}
+#p1{
+    font-size: 21px;
+    color: white;
+}
+#p2{
+    color: lightgray;
+}
+.sec1 img{
+    width: 100%;
+    border-radius:7px 7px 0 0 ;
+
+
+}
+.small-container2{
+    
+    background-color: #DAA31C;
+    
+
+}
+.small-2{
+    background-color: #1B82B1;
+    
+
+}
+.small-2 img{
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+.small-container2 img{
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+
+}
+.sec2{
+    display: flex;
+flex-wrap: wrap;
+}
+ .small-container2, .small-2{
+     margin: 10px 2px;
+     height: 275px;
+     border-radius: 7px;
+     width: 280px;
+}
+.small-2 span p,.small-container2 span p{
+   margin: 15px 20px; 
+    color: white;
+    font-size: 23px ;
+}
+
+.small3, .small4, .small5{
+
+    width:95%;
+    border-radius: 7px;
+    margin: 10px auto;
+    
+}
+.main-sec2{
+    
+    width: 280px;
+    
+}
+.small3 img,.small5 img{
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+.small4 img{
+    width: 40%;
+    border-radius: 7px 0 0 7px;
+}
+.small4{
+    display: flex;
+    background-color: #734BB2;
+    align-items: center;
+    color: white;
+}
+.small4 span p{
+    margin: 0px 20px;
+    font-size: 21px ;
+}
+.small3{
+    background-color:#855AC9;
+    height: 280px;
+    color: white;  
+}
+.small5{
+    background-color: #369143;
+    height: 290px;
+    color: white;
+    justify-content: center;
+    
+}
+.small3 span p,.small5 span p{
+    margin: 10px 10px;
+    font-size: 21px ;
+}
+.top-section{
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+
+}
+.top1{
+    
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+;    
+}
+.main-sec{
+    margin: 10px 10px;
+    
+
+    flex-wrap: wrap;
+}
+#bg{
+    background-image: url(image/container_bg.png);
+}
+.imh{
+    width: 250px;
+    height: 370px;
+    border: 1px solid black;
+    background-color: #313131;
+}
+.imh img{
+    width: 100%;
+    height: 250px;
+}
+.slider{
+    width: 100%;
+    display: flex;
+
+
+    
+}
+.main-slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(image/container_bg.png);
+    
+
+}
+.sm{
+    width: 100%;
+    height: 250px;
+    background-color: #525252;
+}
+.slider , .imh p{
+    color: white;
+    font-size: 25px;
+    margin: 30px 30px;
+}
+#pp{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.imhh{
+    height: 400px;
+    width: 250px;
+    background-color: #313131;
+}
+.imhh img{
+    width: 100%;
+    height: 250px;
+    
+}
+#btt {
+        margin-left: 20px;
+        margin-top: 15px;
+}
+button{
+    width: 30px 30px;
+}
+#tr button{
+ width: 60px ;
+ height: 25px;
+ border-radius: 5px;
+ border: none;
+ background-color: turquoise;
+ color: white;
+}
+#ppp {
+    font-size: 16px;
+}
+.cardss{
+    width: 270px;
+    height: 370px;
+    
+    margin: 10px 0;
+    border-radius: 7px;
+}
+.cardss img{
+    width: 100%;
+    height: 170px;
+    border-radius: 7px 7px 0 0;
+}
+.base-sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 860px;
+    
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: white;
+}
+.bg1{
+display: flex;
+justify-content: center;
+background-image: url(image/container_bg.png);
+
+}
+.sub-sec1{
+    margin-top: -50px;
+}
+#cr1{
+    background-color: #daa31c;
+}
+#cr2{
+    background-color: #a4a4a4;
+}
+#cr3{
+    background-color: #e3350d;
+}
+#cr4{
+    background-color: #313131;
+}
+
+#cr5{
+    background-color: #855ac9;
+}
+#cr6{
+    background-color: #30a7d7;
+}
+#cd1{
+    color: white;
+    font-size: 22px;
+}
+.cardss p{
+    margin: 15px 20px;
+}
+.bl{
+    color: lightgrey;
+}
+#sl{
+    width: 100%;
+    height: 60px;
+    background-color: #ee6b2f;
+    margin-top:15px;
+    border-radius: 7px 7px 0 0;
+    
+}
+#pi{
+    color: white;
+    font-size: 23px ;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+#cr7{
+    background-color: #30a7d7;
+    height: 130px;
+    border-radius: 7px 7px 40px 7px;
+}
+#hg{
+    padding: 20px 15px;
+}
+.footer2{
+    display: flex;
+    margin-top:20px ;
+}
+.lo li {
+    list-style-type: none;
+    font-size: small;
+    padding-top: 6px;
+}
+#po{
+    font-size: 15px;
+    color: grey;
+    margin-left: -160px;
+    font-size: smaller;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    border: 1px solid black;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.main-footer{
+    justify-content: center;
+    width: 100%;
+    
+    display: flex;
+    background-color: black;
+}
+.lo1 li{
+    list-style-type: none;
+    font-size:15px;
+    padding-top: 7px;
+    color: grey;
+}
+.fab{
+  font-size: x-large;
+  border-radius: 7px;
+  width: 33px ;
+  height: 30px;
+  padding: 3px 3px;
+  
+  
+}
+h3{
+    color: white;
+    font-size: larger;
+    margin-left:  -20px;
+}
+#fac{
+    background-color: #3b5998;
+    color: white;
+}
+#twit{
+    background-color: #1DA1F2;
+    color: white;
+}
+#you{
+    background-color: #FF0000;
+    color: white;
+ 
+}
+#insta{
+background-image: url(image/instagram-hex-colors-gradient-background.png);
+color: white;
+}
+#pin{
+    background-color: #E60023;
+    color: white;
+}
+.lo li a{
+    color: grey;
+}
+.footer1 i{
+    margin-top: 20px;
+}
